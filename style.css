@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi-Regular.woff2') format('woff2'),
+        url('Satoshi-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi-Bold.woff2') format('woff2'),
+        url('Satoshi-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Integral CF';
+    src: url('IntegralCF-Bold.woff2') format('woff2'),
+        url('IntegralCF-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body .single-product-box h3 {
+    font-family: 'Satoshi';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Integral CF';
+    font-weight: 700;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+}
+
+.testimonial-carousel button {
+    position: absolute;
+    top: -70px;
+    right: 38px;
+    cursor: pointer;
+}
+
+.testimonial-carousel button next {
+    right: 7px;
+}
+
+button.slick-next.slick-arrow {
+    right: 0;
+}
+
+.testimonial-carousel .slick-list {
+    margin: 0 -16px;
+}
+
+
+
+
+
+
+
+
+
+.fil-l {
+    height: 1300px;
+
+}
